@@ -8,6 +8,7 @@ nav{
     justify-content: space-between;
     background-color: rgb(7, 7, 126);
     padding: 10px 150px;
+    border-bottom: 4px solid #401E63 ;
 }
 
 nav ul{
@@ -36,4 +37,41 @@ nav ul li a:hover{
 nav div{
     font-size: 20px;
     color: white;
+}
+
+/* hero area code start here */
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1710166755608-58b3d62db3a8?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.searchBox-icon-parent{
+     display: flex;
+     justify-content: center;
+} 
+
+.searchBox-icon-parent i{
+    color:black;
+    background-color: cadetblue;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.searchBox-icon-parent input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
 }
